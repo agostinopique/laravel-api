@@ -12203,10 +12203,10 @@ module.exports = g;
 
 /***/ }),
 
-/***/ "./resources/js/front/frontend.js":
-/*!****************************************!*\
-  !*** ./resources/js/front/frontend.js ***!
-  \****************************************/
+/***/ "./resources/js/frontend.js":
+/*!**********************************!*\
+  !*** ./resources/js/frontend.js ***!
+  \**********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -12218,13 +12218,13 @@ var app = new Vue({
 /***/ }),
 
 /***/ 1:
-/*!**********************************************!*\
-  !*** multi ./resources/js/front/frontend.js ***!
-  \**********************************************/
+/*!****************************************!*\
+  !*** multi ./resources/js/frontend.js ***!
+  \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/ago/Documents/Boolean/LARAVEL/laravel-api/resources/js/front/frontend.js */"./resources/js/front/frontend.js");
+module.exports = __webpack_require__(/*! /Users/ago/Documents/Boolean/LARAVEL/laravel-api/resources/js/frontend.js */"./resources/js/frontend.js");
 
 
 /***/ })
