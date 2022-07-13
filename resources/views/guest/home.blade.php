@@ -7,13 +7,13 @@
 
     <link rel="stylesheet" href="{{ asset('css/front/style.css') }}">
 
-    <script src="{{ asset('js/front/frontend.js') }}"></script>
+    <script src="{{ asset('js/front/frontend.js') }}" defer></script>
 
     <title>Laravel API</title>
 </head>
 <body>
 
-    <h1>My view</h1>
+    <div id="app"></div>
 
 </body>
 </html>
