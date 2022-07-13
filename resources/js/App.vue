@@ -1,5 +1,14 @@
 <template>
-    <h1 class="container text-light">My first laravel & vueJS</h1>
+<div class="container mt-4 text-light">
+    <h1 class="mb-5">My first laravel & vueJS</h1>
+    <div
+    v-for="post in posts"
+    :key="post.id"
+     class="my-3">
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.content }}</p>
+    </div>
+</div>
 </template>
 
 <script>
@@ -33,7 +42,5 @@ export default {
 </script>
 
 <style>
-/* @import  */
-
 
 </style>
